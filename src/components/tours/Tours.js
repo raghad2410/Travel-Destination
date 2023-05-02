@@ -1,16 +1,14 @@
 
-
+import Tour from "../tours/tour/tour"
 export default function Tours(props) {
     return (
         <>
             {props.Tour.map(ele => {
                 return (
-                    <div>
-                        <p>
-                            {ele.name}
-                        </p>
-                        <img src={ele.image} />
-                    </div>
+                    <>
+                        <Tour tourName={ele.name} imgg={ele.image} id={ele.id} />
+
+                    </>
                 )
             })}
 

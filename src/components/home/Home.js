@@ -9,6 +9,7 @@ export default function Home(props) {
             <Header />
             <Tours Tour={props.dataJson} />
             <Footer />
+
         </>
     )
 }
