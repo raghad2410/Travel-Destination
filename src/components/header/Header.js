@@ -1,11 +1,11 @@
-
-
+import { Link } from "react-router-dom"
 
 export default function Header() {
     return (
         <>
-            <h1>Hello Raghad</h1>
 
+            <Link to='/' >Home</Link>
+            <h1>Hello World</h1>
         </>
     )
 
